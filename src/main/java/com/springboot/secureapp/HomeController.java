@@ -11,6 +11,6 @@ public class HomeController {
 	public String home()
 	{
 		System.out.println("Home Controller is called.");
-		return "index";//Telling Dispatcher Servlet that we need to call index.jsp --> Downloading the jsp page.
+		return "index.jsp";//Telling Dispatcher Servlet that we need to call index.jsp.
 	}
 }
